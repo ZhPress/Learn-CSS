@@ -1,0 +1,9 @@
+body {background: green}
+#block1 {align=center}
+#block1 h1 {background: white; color: red}
+#block2 h1 {background: white; color: purple}
+p {color: blue}
+#block1 .text {background: white}
+#block2 .text {background: yellow}
+#block2 .text1 {background: red}
+#block2 .table-sec {background: white}
