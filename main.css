@@ -1,9 +1,44 @@
-body {background: green}
-#block1 {align=center}
-#block1 h1 {background: white; color: red}
-#block2 h1 {background: white; color: purple}
-p {color: blue}
-#block1 .text {background: white}
-#block2 .text {background: yellow}
-#block2 .text1 {background: red}
-#block2 .table-sec {background: white}
+body {background: indigo;
+ font-family: tahoma, Arial;
+ font-weight: bolder;
+font-style: italic;
+text-align: justify;
+ font-size: 16px
+}
+
+#block1 {align: center}
+
+#block1 h1 {
+  background: white;
+  color: red;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+#block1 .list {background: white}
+
+block2 h1 {background: white; color: purple}
+#block2 .table-sec {background-color: brown}
+a {color: black}
+#block1 {border: 2px solid}
+
+a[href$=".jpg"]::after {
+  content: '(jpg)';
+  font-size: 10px;
+  color: #888
+}
+a[href$=".png"]::after {
+  content: '(png)';
+  font-size: 10px;
+  color: #888
+}
+a[href$=".mp3"]::after {
+  content: '(mp3)';
+  font-size: 10px;
+  color: #888
+}
+.list1 {
+  font-size: 1.2em;
+}
