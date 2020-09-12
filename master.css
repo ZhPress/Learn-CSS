@@ -1,15 +1,24 @@
-body {
-  ba
-  kground: rgba(120, 0, 120, 0.5);
-  font-size: 16px;
-  font-family: Arial;
-    margin: 50px 10px;
-    }
-
 .container {
   margin: 20px;
-  background: #666;
+  background: #777;
   width: 200px;
-  height: 200px;
-  border-radius: 10px 50px;
+  height: 100px;
+
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.container:after {
+  content: '';
+  position: absolute;
+
+  width: 0;
+  height: 0;
+  border-top: 10px solid black;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  bottom: -10px;
+  left: 90px;
 }
